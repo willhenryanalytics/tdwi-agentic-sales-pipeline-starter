@@ -21,7 +21,7 @@ Use **this file (`AGENTS.md`)**, the user's prompt, and the Python source/tests 
 
 Starter files live at the repo root:
 
-- `generate_sales_report.py` 
+- `generate_sales_report.py`
 - `test_sales_report.py` — pytest tests
 
 Data files live in the `data` directory:
@@ -42,3 +42,4 @@ python generate_sales_report.py
 python -m pytest test_sales_report.py
 ```
 
+Always run `python -m pytest test_sales_report.py` before pushing changes. Ensure all tests pass before pushing. After fixing code, re-run the tests to verify the fixes. If a test fails, diagnose the issue, fix it, and re-run the tests to verify. Iterate until all tests pass and you have met the user's requirements.
